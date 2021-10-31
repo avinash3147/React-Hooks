@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import ErrorExample from "./tutorial/useState/ErrorExample"
+import UseStateBasics from "./tutorial/useState/UseStateBasics"
+import UseStateArray from "./tutorial/useState/UseStateArray"
+import UseStateObject from "./tutorial/useState/UseStateObject"
+import UseStateCounter from "./tutorial/useState/UseStateCounter"
+import UseEffectBasics from "./tutorial/useEffect/UseEffectBasics"
+import UseEffectCleanUp from "./tutorial/useEffect/UseEffectCleanUp"
+import UseEffectFetchData from "./tutorial/useEffect/UseEffectFetchData"
+import UseEffectConditionalRendering from "./tutorial/useEffect/UseEffectConditionalRendering"
+import ShortCircuitEvaluation from "./tutorial/useEffect/ShortCircuitEvaluation"
+import ShowHide from "./tutorial/useEffect/ShowHide"
+import ControlledInputs from "./tutorial/forms/ControlledInputs"
+import MultipleInputs from "./tutorial/forms/MultipleInputs"
+import UseRefBasic from "./tutorial/UseRef/UseRefBasics"
+import PropDrilling from "./tutorial/PropDrilling/PropDrilling"
+import UseReducer from "./tutorial/UseReducer/UseReducer"
+import ContexAPI from "./tutorial/ContextAPI/ContextAPI"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <ContexAPI />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
