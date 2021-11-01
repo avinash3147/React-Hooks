@@ -16,11 +16,12 @@ import PropDrilling from "./tutorial/PropDrilling/PropDrilling"
 import UseReducer from "./tutorial/UseReducer/UseReducer"
 import ContexAPI from "./tutorial/ContextAPI/ContextAPI"
 import Products from "./tutorial/PropTypes/Products"
+import ReactRouter from "./tutorial/ReactRouter/ReactRouter"
 
 function App() {
   return (
     <div className='container'>
-      <Products />
+      <ReactRouter />
     </div>
   )
 }
