@@ -53,3 +53,10 @@ REVISIT USEREF AND NAVBAR PROJECT
 
 ## PropTypes
 * porp types allowws us to validate props
+
+## React Memo
+* when we click on button useeffect will be rerendered everytime when component re renders
+* If we encapsulate a component with React.memo then it will re render only if prop of that particular component chanegs
+
+## Usecallback
+* usecallback() 

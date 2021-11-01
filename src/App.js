@@ -17,11 +17,12 @@ import UseReducer from "./tutorial/UseReducer/UseReducer"
 import ContexAPI from "./tutorial/ContextAPI/ContextAPI"
 import Products from "./tutorial/PropTypes/Products"
 import ReactRouter from "./tutorial/ReactRouter/ReactRouter"
+import MemoAndCallBack from "./tutorial/Memo/MemoAndCallBack"
 
 function App() {
   return (
     <div className='container'>
-      <ReactRouter />
+      <MemoAndCallBack />
     </div>
   )
 }
