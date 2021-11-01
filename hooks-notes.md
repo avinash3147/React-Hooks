@@ -45,3 +45,11 @@ REVISIT USEREF AND NAVBAR PROJECT
 * const [state, dispatch] = useReducer(reducer, defaultState) -> 
 * reducer arg is a function which takes in two args state and action
 * DefaultState has all prop wwith default values
+
+
+## CustomHooks
+* Reuse Functionality not html
+* * always starat wth use
+
+## PropTypes
+* porp types allowws us to validate props

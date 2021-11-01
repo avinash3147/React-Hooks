@@ -15,11 +15,12 @@ import UseRefBasic from "./tutorial/UseRef/UseRefBasics"
 import PropDrilling from "./tutorial/PropDrilling/PropDrilling"
 import UseReducer from "./tutorial/UseReducer/UseReducer"
 import ContexAPI from "./tutorial/ContextAPI/ContextAPI"
+import Products from "./tutorial/PropTypes/Products"
 
 function App() {
   return (
     <div className='container'>
-      <ContexAPI />
+      <Products />
     </div>
   )
 }
